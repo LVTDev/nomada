@@ -3,7 +3,7 @@ import React from "react";
 
 const ExperenciaHome = () => {
   return (
-    <div className="font-montserrat relative">
+    <div className="font-montserrat relative overflow-hidden">
       <div className="relative w-full h-32 lg:h-52">
         <Image
           alt=""
@@ -12,7 +12,7 @@ const ExperenciaHome = () => {
           className="object-cover object-[2%]"
         />
       </div>
-      <p className="text-[28px] lg:text-[52px] leading-16 lg:w-4/5 lg:ml-auto font-bold text-right pr-8 font-work-sans lg:py-7">
+      <p className="text-[24px] pt-8 lg:text-[52px] leading-8 lg:leading-16 lg:w-4/5 lg:ml-auto font-bold text-right lg:pr-8 font-work-sans lg:py-7">
         Buscando una <span className="text-pink">experiencia compartida</span>{" "}
         que fortalece redes culturales y amplía el acceso a nuevas audiencias.
       </p>
@@ -30,16 +30,16 @@ const ExperenciaHome = () => {
         culturales, museos y organizaciones locales.
       </p>
       <Image
-        className="mb-3 absolute top-[35%]  left-0 rotate-90"
-        width={82 / 1.5}
-        height={202 / 1.5}
+        className="mb-3 absolute top-[28%] lg:top-[38%]  left-0 rotate-90"
+        width={82 / 2}
+        height={202 / 2}
         src={`/logo2.png`}
         alt="colored line"
       />{" "}
       <Image
-        className="mb-3 absolute bottom-[6%]  right-0 rotate-270"
-        width={82 / 1.5}
-        height={202 / 1.5}
+        className="mb-3 absolute bottom-[4%] lg:bottom-[6%]  right-[1%]  rotate-270"
+        width={82 / 2}
+        height={202 / 2}
         src={`/logo3.png`}
         alt="colored line"
       />

@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="">
       <div className='min-h-screen backdrop-brightness-10   bg-[url("/heroBG.jpg")] bg-center bg-no-repeat bg-cover flex items-center justify-center relative'>
         <img
           src="/darkenbg.png"
@@ -19,28 +19,28 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className='min-h-screen overflow-hidden  bg-[url("/bgSection2.jpg")]  bg-no-repeat bg-fill bg-left text-black flex flex-col justify-center px-20 relative'>
+      <div className='min-h-screen overflow-hidden  bg-[url("/bgSection2.jpg")]  bg-no-repeat bg-fill bg-left text-black flex flex-col justify-center px-6 lg:px-20 relative'>
         {/* <img
           src="/whiteFilter.png"
           alt=""
-          className="absolute left-0 scale-200 top-0  w-screen h-full object-fill"
+          className="absolute left-0 scale-200 top-0   h-full object-fill"
         /> */}
         <img
           src="/whiteFilter.png"
           alt=""
-          className="absolute -rotate-90 -left-20 scale-200 top-0  w-screen h-full object-fill"
+          className="absolute -rotate-90 -left-20 scale-200 top-0   h-full object-fill"
         />
         <div className="lg:w-1/2 z-10">
-          <p className="uppercase text-[37px] lg:text-[50px] font-bold font-work-sans leading-12">
-            UNA <span className="text-blue">NUEVA forma</span>
-            <br />
-            de entender el <br />
+          <p className="uppercase text-[28px] lg:text-[37px] lg:text-[50px] font-bold font-work-sans leading-12 pt-8 lg:pt-12">
+            UNA <span className="text-blue">NUEVA forma </span>
+            <br className="hidden lg:block" />
+            de entender el <br  className="hidden lg:block"/>
             cine, <span className="text-pink">LA INDUSTRIA</span>,
-            <br />
-            el territorio y la
-            <br />
+            <br className="hidden lg:block" />
+            el territorio y la 
+            <br className="hidden lg:block"/>
             <span className="relative">
-              comunidad
+              {" "} comunidad
               <Image
                 width={338}
                 height={24}
@@ -50,7 +50,7 @@ const Hero = () => {
               />
             </span>
           </p>
-          <p className="font-montserrat mt-10">
+          <p className="font-montserrat mt-10 pb-10">
             Un Festival Internacional de Cine itinerante impulsado por Tulip
             Pictures que más que un evento anual, es una plataforma cultural que
             busca fortalecer la circulación de películas, acercar nuevas voces a
