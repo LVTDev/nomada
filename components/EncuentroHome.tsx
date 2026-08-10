@@ -3,9 +3,28 @@ import React from "react";
 
 const EncuentroHome = () => {
   return (
-    <div>
-      <p className="text-center lg:text-[53px] text-[38px] py-4 font-work-sans font-extrabold">
-        Somos un punto de encuentro. <br className="lg:hidden"/> Somos una red.
+    <div className="relative">
+      <Image
+        className="mb-3 absolute -top-3 -z-10 right-[20%] rotate-180"
+        width={82 / 3}
+        height={202 / 3}
+        src={`/logo1.png`}
+        alt="colored line"
+      />
+
+      <p className="text-center lg:text-[53px] text-[38px] pt-8 pb-4  font-work-sans font-extrabold">
+        Somos un punto de encuentro. <br className="lg:hidden" />{" "}
+        <span className="relative">
+          Somos
+          <Image
+            width={338}
+            height={24}
+            className="absolute -bottom-3 -left-20"
+            src={"/yellowLines.png"}
+            alt="yellow lines"
+          />
+        </span>{" "}
+        una red.
       </p>
       <div className="lg:flex lg:gap-8 px-7">
         <div className="w-3/4 lg:w-1/3 h-[50vh] relative">
@@ -36,7 +55,9 @@ const EncuentroHome = () => {
           </p>
         </div>
       </div>
-      <p className="text-[28px] my-6 lg:my-12 lg:text-[38px] font-bold font-work-sans px-2 lg:px-8">Un <span className="text-blue">Festival</span> de cine en movimiento.</p>
+      <p className="text-[28px] my-6 lg:my-12 lg:text-[38px] font-bold font-work-sans px-2 lg:px-8">
+        Un <span className="text-blue">Festival</span> de cine en movimiento.
+      </p>
     </div>
   );
 };

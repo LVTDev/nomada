@@ -18,6 +18,7 @@ const BottomGridHome = () => {
           <div key={i}className="mx-auto">
             <p className={`underline text-${inf.color} font-bold text-[30px]`} >0{i + 1}</p>
             <p className="font-bold text-[30px] uppercase">{inf.name}</p>
+            <Image className="mb-3" width={220} height={12} src={`/single${inf.color}Line.png`}  alt="colored line"/>
             <div className="relative h-[215px] w-[321px] ">
               <Image
                 className="object-cover"

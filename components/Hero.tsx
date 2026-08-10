@@ -19,11 +19,16 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className='min-h-screen overflow-hidden  bg-[url("/bgSection2.jpg")]  bg-no-repeat bg-fill bg-left text-black flex flex-col justify-center px-20 relative' >
-          <img
+      <div className='min-h-screen overflow-hidden  bg-[url("/bgSection2.jpg")]  bg-no-repeat bg-fill bg-left text-black flex flex-col justify-center px-20 relative'>
+        {/* <img
           src="/whiteFilter.png"
           alt=""
           className="absolute left-0 scale-200 top-0  w-screen h-full object-fill"
+        /> */}
+        <img
+          src="/whiteFilter.png"
+          alt=""
+          className="absolute -rotate-90 -left-20 scale-200 top-0  w-screen h-full object-fill"
         />
         <div className="lg:w-1/2 z-10">
           <p className="uppercase text-[37px] lg:text-[50px] font-bold font-work-sans leading-12">
@@ -34,9 +39,18 @@ const Hero = () => {
             <br />
             el territorio y la
             <br />
-            comunidad
+            <span className="relative">
+              comunidad
+              <Image
+                width={338}
+                height={24}
+                className="absolute -bottom-4 left-1/2 -translate-x-1/2"
+                src={"/yellowLines.png"}
+                alt="yellow lines"
+              />
+            </span>
           </p>
-          <p className="font-montserrat">
+          <p className="font-montserrat mt-10">
             Un Festival Internacional de Cine itinerante impulsado por Tulip
             Pictures que más que un evento anual, es una plataforma cultural que
             busca fortalecer la circulación de películas, acercar nuevas voces a

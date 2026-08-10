@@ -8,7 +8,7 @@ import Tiktok from "./social logos/Tiktok";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white relative">
       <div className="w-[276px] relative h-[117px] mx-auto my-8">
         <Image
           fill
@@ -36,6 +36,27 @@ const Footer = () => {
           2026 &reg; Nómada. Todos los Derechos Reservados.
         </p>
       </div>
+      <Image
+        className="mb-3 absolute -top-20  right-30"
+        width={82 / 2}
+        height={202 / 2}
+        src={`/logo1.png`}
+        alt="colored line"
+      />{" "}
+      <Image
+        className="mb-3 absolute -top-20  right-[200px]"
+        width={82 / 2}
+        height={202 / 2}
+        src={`/logo2.png`}
+        alt="colored line"
+      />{" "}
+      <Image
+        className="mb-3 absolute -top-20  right-[280px]"
+        width={82 / 2}
+        height={202 / 2}
+        src={`/logo3.png`}
+        alt="colored line"
+      />
     </div>
   );
 };

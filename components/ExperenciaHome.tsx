@@ -3,7 +3,7 @@ import React from "react";
 
 const ExperenciaHome = () => {
   return (
-    <div className="font-montserrat">
+    <div className="font-montserrat relative">
       <div className="relative w-full h-32 lg:h-52">
         <Image
           alt=""
@@ -29,6 +29,20 @@ const ExperenciaHome = () => {
         estableciendo alianzas con universidades, cineclubes, centros
         culturales, museos y organizaciones locales.
       </p>
+      <Image
+        className="mb-3 absolute top-[35%]  left-0 rotate-90"
+        width={82 / 1.5}
+        height={202 / 1.5}
+        src={`/logo2.png`}
+        alt="colored line"
+      />{" "}
+      <Image
+        className="mb-3 absolute bottom-[6%]  right-0 rotate-270"
+        width={82 / 1.5}
+        height={202 / 1.5}
+        src={`/logo3.png`}
+        alt="colored line"
+      />
     </div>
   );
 };
