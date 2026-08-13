@@ -19,7 +19,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className='min-h-screen overflow-hidden  bg-[url("/bgSection2.jpg")]  bg-no-repeat bg-fill bg-left text-black flex flex-col justify-center px-6 lg:px-20 relative'>
+      <div className='min-h-screen overflow-hidden  lg:pt-20  bg-[url("/bgSection2.jpg")]  bg-no-repeat bg-fill bg-left text-black flex flex-col justify-center px-6 lg:px-20 relative'>
         {/* <img
           src="/whiteFilter.png"
           alt=""
@@ -35,8 +35,8 @@ const Hero = () => {
             UNA <span className="text-blue">NUEVA forma </span>
             <br className="hidden lg:block" />
             de entender el <br  className="hidden lg:block"/>
-            cine, <span className="text-pink">LA INDUSTRIA</span>,
-            <br className="hidden lg:block" />
+            cine, <span className="text-pink">LA INDUSTRIA</span>, 
+            <br className="hidden lg:block" />{' '}
             el territorio y la 
             <br className="hidden lg:block"/>
             <span className="relative">
@@ -50,7 +50,7 @@ const Hero = () => {
               />
             </span>
           </p>
-          <p className="font-montserrat mt-10 pb-10">
+          <p className="font-montserrat mt-10 pb-10 text-[22px]">
             Un Festival Internacional de Cine itinerante impulsado por Tulip
             Pictures que más que un evento anual, es una plataforma cultural que
             busca fortalecer la circulación de películas, acercar nuevas voces a

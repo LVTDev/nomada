@@ -20,16 +20,25 @@ const Footer = () => {
       <div className="mx-auto  text-center">
         <div className="flex w-max mx-auto mb-6">
           <div className="flex gap-2 w-max">
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=61592783435357&locale=es_LA">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=61592783435357&locale=es_LA"
+            >
               <Facebook />
             </a>
-            <a target="_blank" href="https://www.instagram.com/nomadafilmfestival/">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/nomadafilmfestival/"
+            >
               <Instagram />
             </a>
             <a target="_blank" href="https://x.com/Nomadafilmfest">
               <Twitter />
             </a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCIjpyC0z_Sqoc4rdFKNuwtg">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCIjpyC0z_Sqoc4rdFKNuwtg"
+            >
               <Youtube />
             </a>
             <a target="_blank" href="https://www.tiktok.com/@nomadafilmfest">
@@ -46,24 +55,35 @@ const Footer = () => {
           2026 &reg; Nómada. Todos los Derechos Reservados.
         </p>
       </div>
+      <div>
+        <div className="mx-auto relative w-[70px] h-[28px]">
+          <Image src={"/Tulip_Blanco.png"} fill alt="Logo tulip" />
+        </div>
+      </div>
+      <div className="py-3">
+        <div className="flex gap-3 font-bold text-sm">
+          <p>Términos y ayuda</p>
+          <p>Política de privacidad</p>
+        </div>
+      </div>
       <Image
-        className="mb-3 absolute -top-12  right-30"
-        width={82 / 3}
-        height={202 / 3}
+        className="mb-3 absolute -top-18 lg:-top-28  right-[60px] lg:right-30 scale-30 lg:scale-100"
+        width={82 / 1.6}
+        height={202 / 1.6}
         src={`/logo1.png`}
         alt="colored line"
       />{" "}
       <Image
-        className="mb-3 absolute -top-12  right-[200px]"
-        width={82 / 3}
-        height={202 / 3}
+        className="mb-3 absolute -top-18 lg:-top-28  right-[40px] lg:right-[200px] scale-30 lg:scale-100"
+        width={82 / 1.6}
+        height={202 / 1.6}
         src={`/logo2.png`}
         alt="colored line"
       />{" "}
       <Image
-        className="mb-3 absolute -top-12  right-[280px]"
-        width={82 / 3}
-        height={202 / 3}
+        className="mb-3 absolute -top-18 lg:-top-28  right-[20px] lg:right-[280px] scale-30 lg:scale-100"
+        width={82 / 1.6}
+        height={202 / 1.6}
         src={`/logo3.png`}
         alt="colored line"
       />

@@ -11,7 +11,7 @@ const BottomGridHome = () => {
     { name: "comunidad", image: "/comunidad.jpg", color: "blue" },
   ];
   return (
-    <div>
+    <div className="lg:mt-20">
       <p className="text-yellow"></p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center gap-y-3.5">
         {info.map((inf, i) => (
@@ -38,7 +38,7 @@ const BottomGridHome = () => {
           </div>
         ))}
       </div>
-      <p className="text-center  mb-10 text-[18px] lg:text-[38px]  my-10 font-work-sans font-bold ">
+      <p className="text-center uppercase tracking-tight leading-12  mb-10 text-[18px] lg:text-[48px]  my-10 lg:my-20 font-work-sans font-bold ">
         Próximamente | Agenda de <br />
         Actividades 2026–2027
       </p>
