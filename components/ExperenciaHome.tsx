@@ -32,14 +32,14 @@ const ExperenciaHome = () => {
         </p>
       </div>
       <Image
-        className="mb-3 absolute top-[18%]  lg:top-[38%] -left-6  lg:left-0 rotate-90 scale-30 lg:scale-100"
+        className="mb-3 absolute top-[22%]  lg:top-[38%] -left-6  lg:left-0 rotate-90 scale-30 lg:scale-100"
         width={82}
         height={202}
         src={`/logo2.png`}
         alt="colored line"
       />{" "}
       <Image
-        className="mb-3 absolute bottom-[2%] lg:bottom-[6%]  -right-8 lg:right-[1%]  rotate-270 scale-30 lg:scale-100"
+        className="mb-3 absolute bottom-[17%] lg:bottom-[6%]  -right-8 lg:right-[1%]  rotate-270 scale-30 lg:scale-100"
         width={82}
         height={202}
         src={`/logo3.png`}
