@@ -5,7 +5,7 @@ const EncuentroHome = () => {
   return (
     <div className="relative">
       <Image
-        className="mb-3 absolute -top-20 -z-10 right-[6%] rotate-180 scale-30 lg:scale-100"
+        className="mb-3 absolute -top-24 lg:-top-20 -z-10 right-[6%] rotate-180 scale-30 lg:scale-100"
         width={82 }
         height={202}
         src={`/logo1.png`}

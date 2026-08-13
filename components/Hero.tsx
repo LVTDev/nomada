@@ -8,7 +8,7 @@ const Hero = () => {
         <img
           src="/darkenbg.png"
           alt=""
-          className="absolute top-1/2 right-[10%] -translate-y-1/2"
+          className="absolute top-1/2 right-[10%] scale-200 -translate-y-1/2"
         />
         <div className="w-4/5 relative h-[70vh]">
           <Image

@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="justify-between flex bg-white py-2 lg:px-8 items-center">
+    <div className="absolute z-10 top-0 left-0 w-full justify-between flex bg-transparent py-2 lg:px-8 items-center">
       <LogoHeader />
 
       <div className="relative w-[70px] h-[28px]">
-        <Image src={"/Tulip_logo.jpg"} fill alt="Logo tulip" />
+        <Image src={"/Tulip_Logo.png"} fill alt="Logo tulip" />
       </div>
     </div>
   );

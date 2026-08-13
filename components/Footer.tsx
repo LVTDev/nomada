@@ -8,7 +8,7 @@ import Tiktok from "./social logos/Tiktok";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white relative">
+    <div className="bg-black text-white relative pb-8">
       <div className="w-[276px] relative h-[117px] mx-auto my-8">
         <Image
           fill
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="flex w-max mx-auto mb-6">
           <Envelope />
-          <p className="ml-4">contacto@nomadafilmfest.com</p>
+          <p className="ml-4">info@nomadafilmfest.com</p>
         </div>
         <p className="mb-10">
           2026 &reg; Nómada. Todos los Derechos Reservados.
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <div>
         <div className="mx-auto relative w-[70px] h-[28px]">
-          <Image src={"/Tulip_Blanco.png"} fill alt="Logo tulip" />
+          <Image src={"/Tulip_Logo.png"} fill alt="Logo tulip" />
         </div>
       </div>
       <div className="py-3">
