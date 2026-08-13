@@ -13,18 +13,17 @@ const EncuentroHome = () => {
       />
 
       <p className="text-center lg:text-[53px] text-[38px] pt-10 pb-4  font-work-sans font-extrabold">
-        Somos un punto de encuentro. <br className="lg:hidden" />{" "}
+        Somos un punto de encuentro. <br className="lg:hidden" /> Somos una {" "}
         <span className="relative">
-          Somos
+          red.
           <Image
             width={338}
             height={24}
-            className="absolute -bottom-3 left-0 lg:-left-20"
+            className="absolute -bottom-3 left-0 "
             src={"/yellowLines.png"}
             alt="yellow lines"
           />
         </span>{" "}
-        una red.
       </p>
       <div className="lg:flex lg:gap-8 px-7">
         <div className="w-3/4 mx-auto max-w-[400px] lg:w-1/3 h-[50vh] relative">
@@ -36,7 +35,7 @@ const EncuentroHome = () => {
           />
         </div>
         <div className="lg:w-2/3">
-          <p className="text-2xl mt-8 lg:mt-0 lg:text-[32px] font-bold font-work-sans mb-5">
+          <p className="text-2xl mt-8 lg:mt-0 lg:text-[32px] font-bold text-center lg:text-left font-work-sans mb-5">
             Una historia que continúa transformándose...{" "}
           </p>
           <p className="font-montserrat mb-2 lg:text-[22px]">

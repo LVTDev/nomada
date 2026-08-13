@@ -12,18 +12,18 @@ const ExperenciaHome = () => {
           className="object-cover object-[2%]"
         />
       </div>
-      <p className="text-[24px] pt-8 lg:text-[52px] leading-8 lg:leading-16 lg:w-4/5 lg:ml-auto font-bold text-right lg:pr-8 font-work-sans lg:py-7">
+      <p className="text-[22px] px-1 pt-8 lg:text-[52px] leading-8 lg:leading-16 lg:w-4/5 lg:ml-auto font-bold text-right lg:pr-8 font-work-sans lg:py-7">
         Buscando una <span className="text-pink">experiencia compartida</span>{" "}
         que fortalece redes culturales y amplía el acceso a nuevas audiencias.
       </p>
-      <p className="text-[22px] font-semibold my-5 px-5 lg:px-12">
+      <p className="text-[20px] font-semibold my-5 px-3 lg:px-12">
         Una manera distinta de construir comunidad...
       </p>
-      <p className="mb-5 px-6 lg:px-12 text-[22px]">
+      <p className="mb-5 px-3 lg:px-12 text-[20px]">
         Cada territorio posee una identidad propia, una historia distinta y
         formas particulares de relacionarse con el cine.
       </p>
-      <p className="mb-5 px-6 lg:px-12 text-[22px]">
+      <p className="mb-5 px-3 lg:px-12 text-[20px]">
         Por ello, <span className="font-bold">NÓMADA</span> desarrolla un modelo
         flexible que permite adaptar sus actividades a diferentes contextos,
         estableciendo alianzas con universidades, cineclubes, centros
@@ -37,7 +37,7 @@ const ExperenciaHome = () => {
         alt="colored line"
       />{" "}
       <Image
-        className="mb-3 absolute bottom-[4%] lg:bottom-[6%]  right-[1%]  rotate-270"
+        className="mb-3 absolute bottom-[2%] lg:bottom-[6%]  right-[1%]  rotate-270"
         width={82 / 2}
         height={202 / 2}
         src={`/logo3.png`}
