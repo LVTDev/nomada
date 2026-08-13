@@ -4,14 +4,17 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="justify-between flex bg-white p-3">
+    <div className="justify-between flex bg-white py-3 lg:px-8 items-center">
       <LogoHeader />
+
+      <div className="relative w-[85px] h-[36px]">
+
       <Image
         src={"/Tulip_logo.jpg"}
-        width={131}
-        height={51}
+        fill
         alt="Logo tulip"
-      />
+        />
+        </div>
     </div>
   );
 };
