@@ -20,19 +20,19 @@ const Footer = () => {
       <div className="mx-auto  text-center">
         <div className="flex w-max mx-auto mb-6">
           <div className="flex gap-2 w-max">
-            <a href="https://www.facebook.com/profile.php?id=61592783435357&locale=es_LA">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61592783435357&locale=es_LA">
               <Facebook />
             </a>
-            <a href="https://www.instagram.com/nomadafilmfestival/">
+            <a target="_blank" href="https://www.instagram.com/nomadafilmfestival/">
               <Instagram />
             </a>
-            <a href="https://x.com/Nomadafilmfest">
+            <a target="_blank" href="https://x.com/Nomadafilmfest">
               <Twitter />
             </a>
-            <a href="https://www.youtube.com/channel/UCIjpyC0z_Sqoc4rdFKNuwtg">
+            <a target="_blank" href="https://www.youtube.com/channel/UCIjpyC0z_Sqoc4rdFKNuwtg">
               <Youtube />
             </a>
-            <a href="https://www.tiktok.com/@nomadafilmfest">
+            <a target="_blank" href="https://www.tiktok.com/@nomadafilmfest">
               <Tiktok />
             </a>
           </div>
