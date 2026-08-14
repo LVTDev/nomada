@@ -34,13 +34,13 @@ const Hero = () => {
           <p className="uppercase text-[28px] lg:text-[37px] lg:text-[50px] font-bold font-work-sans leading-12 pt-8 lg:pt-12">
             UNA <span className="text-blue">NUEVA forma </span>
             <br className="hidden lg:block" />
-            de entender el <br  className="hidden lg:block"/>
-            cine, <span className="text-pink">LA INDUSTRIA</span>, 
-            <br className="hidden lg:block" />{' '}
-            el territorio y la 
-            <br className="hidden lg:block"/>
+            de entender el <br className="hidden lg:block" />
+            cine, <span className="text-pink">LA INDUSTRIA</span>,
+            <br className="hidden lg:block" /> el territorio y la
+            <br className="hidden lg:block" />
             <span className="relative">
-              {" "} comunidad
+              {" "}
+              comunidad
               <Image
                 width={338}
                 height={24}
@@ -58,6 +58,23 @@ const Hero = () => {
             durante todo el año.
           </p>
         </div>
+      </div>
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="white"
+          strokeWidth="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className="feather feather-arrow-down"
+        >
+          <line x1="12" y1="5" x2="12" y2="19" />
+          <polyline points="19 12 12 19 5 12" />
+        </svg>
       </div>
     </div>
   );
