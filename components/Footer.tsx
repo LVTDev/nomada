@@ -60,8 +60,8 @@ const Footer = () => {
           <Image src={"/Tulip_Logo.png"} fill alt="Logo tulip" />
         </div>
       </div>
-      <div className="py-3 text-center lg:text-left">
-        <div className="flex gap-3 font-bold text-sm">
+      <div className="py-3  lg:text-left">
+        <div className="flex gap-3 font-bold text-sm justify-center lg:justify-start">
           <p>Términos y ayuda</p>
           <p>Política de privacidad</p>
         </div>
