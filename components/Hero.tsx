@@ -59,7 +59,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-24 lg:bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -68,8 +68,8 @@ const Hero = () => {
           fill="none"
           stroke="white"
           strokeWidth="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="feather feather-arrow-down"
         >
           <line x1="12" y1="5" x2="12" y2="19" />
