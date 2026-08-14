@@ -12,8 +12,8 @@ const EncuentroHome = () => {
         alt="colored line"
       />
 
-      <p className="text-center ml-6 lg:text-left lg:text-[50px] text-[38px] pt-12 pb-10  font-work-sans font-bold tracking-[-2.85px]">
-        Somos un punto de encuentro. <br className="lg:hidden" /> 
+      <p className="text-center ml-6 lg:text-left lg:text-[50px] text-[38px] pt-26 pb-10  font-work-sans font-bold tracking-[-2.85px]">
+        Somos un punto de encuentro. <br className="sm:hidden" /> 
         <span className="relative">
           Somos una red.
           <Image

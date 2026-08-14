@@ -11,7 +11,7 @@ const BottomGridHome = () => {
     { name: "comunidad", image: "/comunidad.jpg", color: "blue" },
   ];
   return (
-    <div className="lg:mt-20">
+    <div className="lg:mt-20 pb-4">
       <p className="text-yellow"></p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center gap-y-3.5">
         {info.map((inf, i) => (
