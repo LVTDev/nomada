@@ -4,13 +4,13 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="">
-      <div className='min-h-screen backdrop-brightness-10   bg-[url("/heroBG.jpg")] bg-center bg-no-repeat bg-cover flex items-center justify-center relative'>
+      <div className='min-h-screen overflow-hidden backdrop-brightness-10   bg-[url("/heroBack.png")] bg-center bg-no-repeat bg-cover flex items-center justify-center relative'>
         <img
           src="/darkenbg.png"
           alt=""
           className="absolute top-1/2 right-[10%] scale-200 -translate-y-1/2"
         />
-        <div className="w-4/5 relative h-[70vh]">
+        <div className="w-4/5 relative h-[80vh]">
           <Image
             fill
             src={"/heroText.png"}
@@ -28,7 +28,7 @@ const Hero = () => {
         <img
           src="/whiteFilter.png"
           alt=""
-          className="absolute -rotate-90 -left-20 scale-200 top-0   h-full object-fill"
+          className="absolute -rotate-90 -left-40 scale-200 top-0   h-full object-fill"
         />
         <div className="lg:w-1/2 z-10">
           <p className="uppercase text-[28px] lg:text-[37px] lg:text-[50px] font-bold font-work-sans leading-12 pt-8 lg:pt-12">
