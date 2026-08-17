@@ -1,19 +1,47 @@
+"use client";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
 
 const EncuentroHome = () => {
+  gsap.registerPlugin(useGSAP);
+  const container = useRef<HTMLDivElement>(null);
+
+  useGSAP(() => {
+    gsap.to(".pinkIcon", {
+      scrollTrigger: {
+        trigger: container.current,
+        start: "top 40%",
+      },
+      y: 80,
+      opacity: 1,
+      ease: "bounce.out",
+      duration: 0.7,
+    });
+    gsap.to(".textEncuentro", {
+      scrollTrigger: {
+        trigger: container.current,
+        start: "top 40%",
+      },
+      y: 0,
+      opacity: 1,
+      ease: "bounce.out",
+      delay: 0.7,
+    });
+  });
   return (
-    <div className="relative">
+    <div ref={container} className="relative encuentroCont">
       <Image
-        className="mb-3 absolute -top-24 lg:-top-20 -z-10 right-[6%] rotate-180 scale-30 lg:scale-100"
-        width={82 }
+        className="pinkIcon opacity-0 mb-3 absolute -top-24 lg:-top-40 -z-10 right-[6%] rotate-180 scale-30 lg:scale-100"
+        width={82}
         height={202}
         src={`/logo1.png`}
         alt="colored line"
       />
 
-      <p className="text-center ml-6 lg:text-left lg:text-[50px] text-[38px] pt-26 pb-10  font-work-sans font-bold tracking-[-2.85px]">
-        Somos un punto de encuentro. <br className="sm:hidden" /> 
+      <p className="textEncuentro opacity-0 -translate-y-10  text-center ml-6 lg:text-left lg:text-[50px] text-[38px] pt-26 pb-10  font-work-sans font-bold tracking-[-2.85px]">
+        Somos un punto de encuentro. <br className="sm:hidden" />
         <span className="relative">
           Somos una red.
           <Image
@@ -54,6 +82,7 @@ const EncuentroHome = () => {
           </p>
         </div>
       </div>
+      {/* <EncuentroHome/> */}
       <p className="text-[28px] my-6 lg:my-12 lg:text-[38px] font-bold font-work-sans px-2 lg:px-8">
         Un <span className="text-blue">Festival</span> de cine en movimiento.
       </p>

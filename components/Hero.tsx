@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import HeroLogo from "./HeroLogo";
 
 const Hero = () => {
   return (
@@ -10,14 +11,15 @@ const Hero = () => {
           alt=""
           className="absolute top-1/2 right-[10%] scale-200 -translate-y-1/2"
         />
-        <div className="w-4/5 relative h-[80vh]">
+        {/* <div className="w-4/5 relative h-[80vh]">
           <Image
             fill
             src={"/heroText.png"}
             alt="Nomada festival"
             className="object-contain"
           />
-        </div>
+        </div> */}
+        <HeroLogo/>
       </div>
       <div className='min-h-screen overflow-hidden  lg:pt-20  bg-[url("/bgSection2.jpg")]  bg-no-repeat bg-fill bg-left text-black flex flex-col justify-center px-6 lg:px-20 relative'>
         {/* <img

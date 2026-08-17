@@ -1,9 +1,36 @@
+"use client";
 import Image from "next/image";
-import React from "react";
-
+import React, { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 const ExperenciaHome = () => {
+  gsap.registerPlugin(useGSAP);
+  const container = useRef<HTMLDivElement>(null);
+
+  useGSAP(() => {
+    gsap.to(".yellowIcon", {
+      scrollTrigger: {
+        trigger: container.current,
+        start: "top 30%",
+      },
+      x: 80,
+      opacity: 1,
+      ease: "bounce.out",
+      duration: 0.7,
+    });
+    gsap.to(".blueIcon", {
+      scrollTrigger: {
+        trigger: container.current,
+        start: "top 30%",
+      },
+      x: -70,
+      opacity: 1,
+      ease: "bounce.out",
+      delay: 0.7,
+    });
+  });
   return (
-    <div className="font-montserrat relative overflow-hidden">
+    <div ref={container} className="font-montserrat relative overflow-hidden">
       <div className="relative w-full h-32 lg:h-40">
         <Image
           alt=""
@@ -32,14 +59,14 @@ const ExperenciaHome = () => {
         </p>
       </div>
       <Image
-        className="mb-3 absolute top-[22%]  lg:top-[38%] -left-6  lg:left-0 rotate-90 scale-30 lg:scale-100"
+        className="yellowIcon mb-3 absolute top-[22%]  lg:top-[38%] -left-6   rotate-90 scale-30 lg:scale-100"
         width={82}
         height={202}
         src={`/logo2.png`}
         alt="colored line"
       />{" "}
       <Image
-        className="mb-3 absolute bottom-[17%] lg:bottom-[6%]  -right-8 lg:right-[1%]  rotate-270 scale-30 lg:scale-100"
+        className="blueIcon mb-3 absolute bottom-[17%] lg:bottom-[6%]  -right-8   rotate-270 scale-30 lg:scale-100"
         width={82}
         height={202}
         src={`/logo3.png`}
