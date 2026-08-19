@@ -5,6 +5,7 @@ import Twitter from "./social logos/Twitter";
 import Instagram from "./social logos/Instagram";
 import Youtube from "./social logos/Youtube";
 import Tiktok from "./social logos/Tiktok";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -63,7 +64,7 @@ const Footer = () => {
       <div className="py-3  lg:text-left">
         <div className="flex gap-3 font-bold text-sm justify-center lg:justify-start">
           <p>Términos y ayuda</p>
-          <p>Política de privacidad</p>
+          <Link href={'/avisoDePrivacidad'}>Política de privacidad</Link>
         </div>
       </div>
       <Image
