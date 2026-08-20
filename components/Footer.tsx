@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
       <div className="py-3  lg:text-left">
         <div className="flex gap-3 font-bold text-sm justify-center lg:justify-start">
-          <p>Términos y ayuda</p>
+          <Link href={'/terminos'}>Términos y ayuda</Link>
           <Link href={'/avisoDePrivacidad'}>Política de privacidad</Link>
         </div>
       </div>
