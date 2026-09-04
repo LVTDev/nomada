@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ExperenciaHome = () => {
@@ -30,6 +31,13 @@ const ExperenciaHome = () => {
           contextos, estableciendo alianzas con universidades, cineclubes,
           centros culturales, museos y organizaciones locales.
         </p>
+
+<div className="flex items-center justify-center">
+
+        <Link className="py-2 px-3 hover:bg-pink hover:text-white  text-center  bg-blue rounded" href='/convocatoria'>Conoce las Convocatorias</Link>
+</div>
+
+
       </div>
       <Image
         className="mb-3 absolute top-[22%]  lg:top-[38%] -left-6  lg:left-0 rotate-90 scale-30 lg:scale-100"
