@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const BottomGridHome = () => {
@@ -13,6 +14,14 @@ const BottomGridHome = () => {
   return (
     <div className="lg:mt-20 pb-4">
       <p className="text-yellow"></p>
+              <div className="flex items-center justify-center">
+                <Link
+                  className="py-2 px-3 hover:bg-pink text-white  text-center  bg-blue rounded"
+                  href="/convocatoria"
+                >
+                  Conoce las Convocatorias
+                </Link>
+              </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center gap-y-3.5">
         {info.map((inf, i) => (
           <div key={i} className="mx-auto">

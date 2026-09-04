@@ -32,11 +32,6 @@ const ExperenciaHome = () => {
           centros culturales, museos y organizaciones locales.
         </p>
 
-<div className="flex items-center justify-center">
-
-        <Link className="py-2 px-3 hover:bg-pink hover:text-white  text-center  bg-blue rounded" href='/convocatoria'>Conoce las Convocatorias</Link>
-</div>
-
 
       </div>
       <Image
